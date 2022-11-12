@@ -175,7 +175,7 @@ body {
   font-size: 12px;
 }
 
-.list-item-buttons{
+.list-item-buttons {
   margin-top: 20px;
 }
 
@@ -203,4 +203,54 @@ body {
   display: flex;
   align-items: center;
   font-size: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 20px;
+  border-bottom: 3px solid orange;
+}
+
+.header-input {
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #dddddd;
+}
+
+.header-button {
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-color: orange;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: 1px solid orange;
+  color: white;
+  padding: 8px;
+  min-width: 100px;
+}
+
+.header-title {
+  font-size: 26px;
+  font-family: Verdana;
+  color: orange;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.pictures-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
