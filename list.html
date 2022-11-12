@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Grocery list</title>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="list-wrapper">
+      <div class="list-title">Grocery list</div>
+      <div class="list-items">
+        <div class="list-item">
+          <div class="list-item-icon">
+            <img src="./img/add.svg" alt="">
+          </div>
+          <div class="list-item-text">
+            <input class="list-item-input" name="text" type="text" id="productInput">
+            <label class="list-item-label">
+              Add product
+            </label>
+          </div>
+        </div>
+        <div class="list-item-buttons">
+          <button class="list-item-button" type="submit" onclick="addProduct()">Add</button>
+          <button class="list-item-button" type="submit" onclick="deleteProduct()">Delete</button>
+        </div>
+
+
+        <div class="list-products">
+          <div class="list-product" id="addedProduct"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./list.js"></script>
+</body>
+
+</html>
