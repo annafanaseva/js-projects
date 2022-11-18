@@ -207,10 +207,21 @@ body {
   background-position: right center;
 }
 
+.product-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
 .list-product {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   font-size: 24px;
+}
+
+.list-product p{
+  margin: 0;
 }
 
 .header {
