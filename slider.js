@@ -45,7 +45,6 @@ function slideImg(i) {
   }
 
   if (index <= pictureAmount - 1) {
-    console.log(index);
     images[index+1].className = "main";
     dots[index+1].className = "active";
   }
