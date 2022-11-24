@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Clock</title>
+</head>
+
+<body>
+  <div class="hero">
+    <div id="weekday" class="timer-title">Stopwatch</div>
+
+    <div class="clock-wrapper">
+      <div id="minutes" class="clock-item clock-minutes"></div>
+      <div class="clock-item">:</div>
+      <div id="seconds" class="clock-item clock-seconds"></div>
+      <div class="clock-item">,</div>
+      <div id="milliseconds" class="clock-item clock-milliseconds"></div>
+    </div>
+
+    <div class="timer-button-wrapper">
+      <a onclick="startStopwatch()">Start</a>
+      <a onclick="pauseStopwatch()">Pause</a>
+      <a onclick="clearStopwatch()">Clear</a>
+      <a onclick="countLap()">Lap</a>
+    </div>
+
+    <div id="lap-wrapper" class="lap-wrapper"></div>
+  </div>
+
+  <script src="./timer.js"></script>
+</body>
+
+</html>
