@@ -1,2 +1,2 @@
 # js-projects
-https://github.com.github.io/annafanaseva/js-projects
+http://htmlpreview.github.io/?https://github.com/annafanaseva/js-projects/index.html
